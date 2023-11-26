@@ -38,15 +38,44 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+        <a href="https://de.linkedin.com/in/joyce-timothy-engels-215173276" className="cursor-pointer">
+        <Image
+            src="/linkedin-icon-2.svg"
+            alt="LinkedIn"
+            width={24}
+            height={24}
+            className=" z-10"
+          />
+          </a>
+          <a href="https://www.instagram.com/engels_development/" className="cursor-pointer">
+        <Image
+            src="/5296765_camera_instagram_instagram logo_icon.png"
+            alt="Instagram"
+            width={24}
+            height={24}
+            className=" z-10"
+          />
+          </a>
+          <a href="https://github.com/JoyceTimothyEngels" className="cursor-pointer">
+        <Image
+            src="/gitwhite.png"
+            alt="GitHub"
+            width={24}
+            height={24}
+            className=" z-10"
+          />
+          </a>
+          {/* {Socials.map((social) => (
+            
             <Image
               src={social.src}
               alt={social.name}
               key={social.name}
               width={24}
               height={24}
+              className="cursor-pointer hover:animate-slowspin"
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const SkillText = () => {
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
         >
             <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-5">
-        Skills
+        Our Skills
             </h1>
             <span>
             Building innovative Apps with a modern

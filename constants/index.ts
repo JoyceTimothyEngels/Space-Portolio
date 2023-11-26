@@ -47,6 +47,7 @@ export const Skill_data = [
   ];
   
   export const Socials = [
+    
     {
       name: "LinkedIn",
       src: "/linkedin-icon-2.svg",
